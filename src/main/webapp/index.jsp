@@ -10,11 +10,11 @@
 	<br>
 	<br>
 	
-	<form action="/java_mysql/Search" method="POST">
+	<form action="addresult.jsp" method="POST">
 
 		タイトル: <input type="text" name="title"> 
-		名前: <input type="text"name="name"> 
-		期限: <input type="day"name="deadline">
+		詳細: <input type="textarea"name="detail"> 
+		期限: <input type="day"name="deadline" min="2023-03-01" max="2023-12-31">
 		</SELECT> 優先度：<SELECT NAME="priority">
 			<OPTION VALUE="" selected></OPTION>
 			<OPTION VALUE="1">★1</OPTION>
